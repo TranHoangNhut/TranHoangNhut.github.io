@@ -89,12 +89,13 @@ h1 {
 }
 
 .abc {
-	position: fixed; 
-	right: 30px;
+	position: relative; 
+	left: 1180px;
 	bottom: 0px;
+
  	animation-name: slidein, fadeinout;
   	animation-duration: 3s,4s;
-  	animation-fill-mode: forwards;
+  	animation-fill-mode: 1;
 }
 
 @keyframes slidein {
