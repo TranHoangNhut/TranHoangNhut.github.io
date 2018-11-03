@@ -1,0 +1,72 @@
+img {
+	height: 600px;
+	margin-left: 410px;
+}
+
+h1 {
+	text-align: center;
+	color: red;
+}
+
+.icon-bar {
+	width: 100%;
+	background-color: #555;
+	overflow: hidden;
+}
+
+.icon-bar a{
+	float: left;
+	text-align: center;
+	width: 20%;
+	padding: 12px 0;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 16px;
+}
+
+.icon-bar a:hover, .subnav:hover .subnavbtn {
+	background-color: red;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+.subnav {
+	float: left;
+	overflow: hidden;
+}
+
+.subnav .subnavbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	margin: 0;
+}
+
+.subnav-content {
+	display: none;
+	position: absolute;
+	left: 0;
+	background-color: red;
+	width: 100%;
+	z-index: 1;
+}
+
+.subnav-content a{
+	float: left;
+	color: white;
+	text-decoration: none;
+}
+
+.subnav-content a:hover {
+	background-color: #eee;
+	color: black;
+}
+
+.subnav:hover .subnav-content{
+	display: block;
+}
