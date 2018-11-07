@@ -1,6 +1,13 @@
+* {
+	box-sizing: border-box;
+}
 img {
 	height: 600px;
 	margin-left: 410px;
+}
+
+h1 {
+	font-family: Andika;
 }
 
 h1 {
